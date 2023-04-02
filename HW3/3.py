@@ -1,8 +1,9 @@
 def shiftToRight(array):
-    first = array[len(array) - 1]
+    first_element = array[len(array) - 1]
+    #проход с конца
     for i in range(len(array) - 1, -1, -1):
         array[i] = array[i-1]
-    array[0] = first
+    array[0] = first_element
     return array
 
 
