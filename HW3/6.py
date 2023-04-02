@@ -12,6 +12,7 @@ a = []
 for i in range(n):
     row = input().split()
     for i in range(len(row)):
+        #создаем массив и уже его добавляем в основной
         row[i] = int(row[i])
     a.append(row)
 
