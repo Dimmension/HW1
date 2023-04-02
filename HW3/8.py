@@ -1,5 +1,6 @@
 def postfixForm():
     arr = list(input().split())
+    #важно создать новый массив, иначе не будет работать
     res = []
     for symbol in arr:
         if symbol.isdigit():
