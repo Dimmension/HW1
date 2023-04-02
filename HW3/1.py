@@ -3,6 +3,7 @@ x2, y2 = map(int, input().split())
 
 
 def can_eat(a, b):
+    #Вычисляем сумму клеток на которое переместится конь
     result = abs(a[0] - b[0]) + abs(a[1] - b[1])
     if result == 3:
         return True
